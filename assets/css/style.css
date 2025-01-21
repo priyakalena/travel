@@ -163,7 +163,7 @@ header i {
 
 /********************hero****************************/
 #hero {
-    will-change: 100%;
+    max-width: 100%;
     height: 100vh;
     background-image: url(../image/hero-benner.jpg);
     background-position: center center;
@@ -182,7 +182,7 @@ header i {
 }
 
 .hero-data {
-    padding-top: 18%;
+    padding-top: 12%;
     z-index: 9999;
     position: relative;
 }
@@ -199,7 +199,7 @@ header i {
     max-width: 43.6rem;
 }
 .hero-data form{
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .select-from {
@@ -656,12 +656,14 @@ margin-bottom: 4rem ;
 /********************price****************************/
 
 #price {
-    max-width: 100%;
-    height: 100vh;
+    margin-top: 15rem;
+    /* max-width: 100%; */
+    /* height: 100vh; */
     background-position: center center;
     background-size: cover;
     position: relative;
     justify-content: center;
+    padding: 5rem;
 }
 
 #price::after{
@@ -675,16 +677,8 @@ margin-bottom: 4rem ;
 }
 
 #price .container {
-    padding-top: 18%;
     z-index: 9999;
     position: relative;
-}
-
-#price {
-    margin-top: 15rem;
-    width: 100%;
-    background-color: #C4C4C4;
-    padding: 0rem 27rem;
 }
 
 #price h4 {
@@ -693,7 +687,7 @@ margin-bottom: 4rem ;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 3rem;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 #price p {
@@ -701,12 +695,11 @@ margin-bottom: 4rem ;
     margin: 0 auto 9rem;
     font-size: 1.8rem;
     text-align: center;
-    
 }
 #price .c-btn {
-    padding: 1rem 2rem;
+    padding:1rem 2rem;
     text-align: center;
-    margin: 0 auto;
+    margin: 1rem;
 }
 #price form {
     background-color: white;
@@ -714,23 +707,19 @@ margin-bottom: 4rem ;
     justify-content: space-between;
     margin: 0 auto;
     display: flex;
-    padding: 0.7rem 0.5rem 0.7rem 2.2rem;
+    width: 50%;
 }
 
 #price form input {
-    width: 96%;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 500;
     border: none;
     outline: none;
     border-radius: 3.45rem;
-
+    /* padding-left: 1.5rem; */
+    margin: 1rem;
+    text-align: center;
 }
-
-
-
-
-
 /************************************************/
 
 /******************footer******************************/
@@ -743,7 +732,6 @@ footer {
     justify-content: space-between;
     row-gap: 2rem;
     padding-bottom: 8rem;
-
 }
 .travel-footer{
     justify-content:space-between;
@@ -752,16 +740,13 @@ footer {
     width: 30rem;
     margin-bottom: 1rem;
 }
-
 .travel-footer p {
     font-size: 1.8rem;
     color: #6C6C6C;
 }
-
 .travel-footer a {
     color: #6C6C6C;
     font-size: 1.8rem;
-
 }
 .travel-footer h3 {
     font-size: 2.4rem;

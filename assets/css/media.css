@@ -79,13 +79,19 @@
     .main-get {
         margin-left: 0rem;
     }
+
     .select-from {
         flex-direction: column;
         row-gap: 2rem;
         padding: 2rem;
     }
+
     .select-from select {
         padding: 0rem;
+    }
+
+    #price form {
+        flex-direction: column;
     }
 
 
@@ -178,13 +184,19 @@
     .main-get {
         margin-left: 0rem;
     }
+
     .select-from {
         flex-direction: column;
         row-gap: 2rem;
         padding: 2rem;
     }
+
     .select-from select {
         padding: 0rem;
+    }
+
+    #price form {
+        flex-direction: column;
     }
 
 }
@@ -271,13 +283,19 @@
     .main-get {
         margin-left: 0rem;
     }
+
     .select-from {
         flex-direction: column;
         row-gap: 2rem;
         padding: 2rem;
     }
+
     .select-from select {
         padding: 1rem;
+    }
+
+    #price form {
+        flex-direction: column;
     }
 }
 
@@ -355,10 +373,14 @@
     .main-get {
         margin-left: 5rem;
     }
+
     .select-from {
         flex-direction: column;
         row-gap: 2rem;
         padding: 2rem;
+    }
+    #price form {
+        flex-direction: row;
     }
 
 }
@@ -430,11 +452,15 @@
     .main-get {
         margin-left: 9rem;
     }
+
     .select-from {
         flex-direction: row;
         /* row-gap: 2rem;
         padding: 2rem; */
     }
+    /* #price form {
+        flex-direction: column;
+    } */
 
 }
 
