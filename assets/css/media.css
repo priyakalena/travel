@@ -1,5 +1,5 @@
 /* 0-575  x-sm  8px */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
     html {
         font-size: 50%;
     }
@@ -92,6 +92,7 @@
 
     #price form {
         flex-direction: column;
+        width: 100%;
     }
 
 
@@ -197,6 +198,7 @@
 
     #price form {
         flex-direction: column;
+        width: 50%;
     }
 
 }
@@ -296,6 +298,7 @@
 
     #price form {
         flex-direction: column;
+        width: 50%;
     }
 }
 
@@ -380,7 +383,9 @@
         padding: 2rem;
     }
     #price form {
-        flex-direction: row;
+        flex-direction: column;
+        /* width: 50%;
+        align-items: center; */
     }
 
 }
@@ -461,6 +466,10 @@
     /* #price form {
         flex-direction: column;
     } */
+    #price form {
+        flex-direction: row;
+        width: 50%;
+    }
 
 }
 
