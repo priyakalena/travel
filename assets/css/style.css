@@ -182,7 +182,7 @@ header i {
 }
 
 .hero-data {
-    padding-top: 12%;
+    padding-top: 15%;
     z-index: 9999;
     position: relative;
 }
@@ -195,7 +195,7 @@ header i {
 
 .hero-data p {
     color: #cfcfcf;
-    margin-top: 4rem;
+    margin-top: 9rem;
     max-width: 43.6rem;
 }
 .hero-data form{
@@ -204,7 +204,7 @@ header i {
 
 .select-from {
     max-width: 70rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     background-color: white;
     border-radius: 4rem;
     justify-content: space-between;
@@ -692,7 +692,7 @@ margin-bottom: 4rem ;
     background-size: cover;
     position: relative;
     justify-content: center;
-    padding: 5rem;
+    padding: 10rem;
 }
 
 #price::after{
