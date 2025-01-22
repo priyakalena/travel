@@ -303,7 +303,7 @@
 }
 
 /* 992-1199 lg 9px */
-@media screen and (min-width: 922px) {
+@media screen and (min-width: 992px) {
     html {
         font-size: 56.25%;
     }
@@ -378,12 +378,12 @@
     }
 
     .select-from {
-        flex-direction: column;
+        flex-direction: row;
         row-gap: 2rem;
         padding: 2rem;
     }
     #price form {
-        flex-direction: column;
+        flex-direction: row;
         /* width: 50%;
         align-items: center; */
     }
@@ -391,7 +391,8 @@
 }
 
 /* 1200-1399 xl 10px */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px)
+ {
 
     html {
         font-size: 62.5%;
@@ -458,11 +459,11 @@
         margin-left: 9rem;
     }
 
-    .select-from {
+    /* .select-from {
         flex-direction: row;
         /* row-gap: 2rem;
         padding: 2rem; */
-    }
+    /* } */ */
     /* #price form {
         flex-direction: column;
     } */

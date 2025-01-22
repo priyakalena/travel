@@ -203,7 +203,7 @@ header i {
 }
 
 .select-from {
-    width: 35%;
+    max-width: 70rem;
     margin-top: 1rem;
     background-color: white;
     border-radius: 4rem;
@@ -655,11 +655,39 @@ margin-bottom: 4rem ;
 /************************************************/
 
 /********************price****************************/
+/* 
+#hero {
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(../image/hero-benner.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-data {
+    padding-top: 12%;
+    z-index: 9999;
+    position: relative;
+} */
+
+
 
 #price {
     margin-top: 15rem;
-    /* max-width: 100%; */
-    /* height: 100vh; */
+    /* max-width: 100%; 
+    height: 100vh; */
+    background-image: url(../image/d6.jpg);
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -676,6 +704,11 @@ margin-bottom: 4rem ;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.3);
 }
+/* .hero-data {
+    padding-top: 12%;
+    z-index: 9999;
+    position: relative;
+} */
 
 #price .container {
     z-index: 9999;
