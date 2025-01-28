@@ -131,13 +131,16 @@ header {
 }
 
 header .container {
+    /* margin: 0 auto; */
     display: flex;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
 .logo {
     width: 21.3rem;
     height: 4.5rem;
+    /* margin-top: 2rem; */
 }
 
 header nav {
@@ -145,18 +148,123 @@ header nav {
 }
 
 header nav ul {
-    color: white;
+    /* color: white; */
     display: flex;
 }
 
 header nav ul li a {
     color: white;
-    margin: 0 3.3rem;
+    margin: 0 1 rem;
     font-size: 1.8rem;
 }
 
 header i {
     color: white;
+}
+.fa-chevron{
+    font-size: 1rem;
+}
+.fa-magnifying-glass:before, .fa-search:before {
+    font-size: 2rem;
+}
+
+
+
+nav ul li a{
+    padding: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+    width: 100%;
+}
+nav  ul  li  a:hover{
+    background-color: black;
+    color: white;
+}
+nav>ul>li{
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    /* background-color:#069ABA; */
+    color: black;
+    display: none;
+    width: 200px;
+}
+.submenu ul >li{
+    position: relative;
+}
+.subsubmenu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    /* background-color: pink; */
+    display: none;
+}
+header nav>ul >li:hover .submenu{
+    display: block;
+}
+.submenu >li:hover .subsubmenu{
+    display: block;
+}
+header nav>ul >li:hover .proarrow{
+    transform: rotate(90deg);
+}
+.submenu >li:hover .fasarrow{
+    transform: rotate(90deg);
+}
+
+.baricon, .closeicon{
+    display: none;
+    font-size: 3rem;
+}
+.baricon{
+    padding-right: 2rem;
+}
+.closeicon{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+@media screen and (max-width : 991px) {
+    nav>ul {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -50%;
+        background-color: #069ABA;
+        width: 50%;
+        height: 100vh;
+        transition: all 1s;
+    }
+    /* nav>ul{
+        width: 0;
+    } */
+    header nav ul{
+        display: block;
+    }
+    .submenu{
+        position: relative;
+        top: 0;
+        left: 0;
+        padding-left: 30px;
+    }
+    .subsubmenu{
+        position: relative;
+        top: 0;
+        left: 0;
+        padding-left: 40px ;
+    }
+    .baricon, .closeicon{
+        display: block;
+    }
+
+    .showhide {
+        right: 0;
+    }
+
 }
 
 /************************************************/
@@ -178,11 +286,11 @@ header i {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .hero-data {
-    padding-top: 15%;
+    padding-top: 14%;
     z-index: 9999;
     position: relative;
 }
@@ -193,18 +301,18 @@ header i {
     line-height: 10rem;
 }
 
-.hero-data p {
+/* .hero-data p {
     color: #cfcfcf;
-    margin-top: 9rem;
+    margin-top: 5rem 0;
     max-width: 43.6rem;
-}
+} */
 .hero-data form{
     padding: 1rem;
 }
 
 .select-from {
     max-width: 70rem;
-    margin-top: 3rem;
+    margin-top: 0rem;
     background-color: white;
     border-radius: 4rem;
     justify-content: space-between;
@@ -229,7 +337,7 @@ header i {
 
 .hero-data p {
     color: #ECECEC;
-    margin-top: 3rem;
+    margin: 1rem 0;
 }
 
 /************************************************/
@@ -720,13 +828,13 @@ margin-bottom: 4rem ;
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
     /* max-width: 100%; */
 }
 
 #price p {
     color: white;
-    margin: 0 auto 9rem;
+    margin: 2rem 0rem;
     font-size: 1.8rem;
     text-align: center;
 }

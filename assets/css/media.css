@@ -94,6 +94,9 @@
         flex-direction: column;
         width: 100%;
     }
+    #price{
+        padding: 2rem;
+    }
 
 
 }
@@ -200,6 +203,9 @@
         flex-direction: column;
         width: 50%;
     }
+    #price{
+        padding: 2rem;
+    }
 
 }
 
@@ -300,6 +306,9 @@
         flex-direction: column;
         width: 50%;
     }
+    #price{
+        padding: 10rem;
+    }
 }
 
 /* 992-1199 lg 9px */
@@ -383,7 +392,7 @@
         padding: 2rem;
     }
     #price form {
-        flex-direction: row;
+        flex-direction: column;
         /* width: 50%;
         align-items: center; */
     }
@@ -463,13 +472,13 @@
         flex-direction: row;
         /* row-gap: 2rem;
         padding: 2rem; */
-    /* } */ */
+    /* } */ 
     /* #price form {
         flex-direction: column;
     } */
     #price form {
         flex-direction: row;
-        width: 50%;
+        /* width: 50%; */
     }
 
 }

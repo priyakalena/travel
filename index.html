@@ -11,17 +11,62 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
 </head>
+
 <body>
     <header>
         <div class="container">
             <img class="logo" src="assets/image/Logo.png" alt="logo img">
             <nav>
-                <ul>
+                <i class="baricon fa-solid fa-bars" onclick="togglemenu()"></i>
+                <ul id="menu">
+                    <i class="closeicon fa-solid fa-xmark" onclick="togglemenu()"></i>
+
                     <li><a href="#">Home</a></li>
                     <li><a href="about.html" target="_blank">About Us</a></li>
-                    <li><a href="#">Package <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li><a href="#">Destination <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li><a href="#">Blog <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Package <i class="fa-solid fa-chevron-right proarrow"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">GOA</a></li>
+                            <li>
+                                <a href="#">SURAT <i class="fa-solid fa-chevron-right fasarrow "></i></a>
+                                <ul class="subsubmenu">
+                                    <li><a href="#">DIV</a></li>
+                                    <li><a href="#">DUMAS</a></li>
+                                    <li><a href="#">SUVALI</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">BALI</a></li>
+                            <li><a href="#">DAMAN</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Destination <i class="fa-solid fa-chevron-right proarrow"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">SURAT</a></li>
+                            <li>
+                                <a href="#">RAJKOT</a>
+                                <!-- <ul class="subsubmenu">
+                                    <li><a href="#">WOMEN</a></li>
+                                    <li><a href="#">MEN</a></li>
+                                    <li><a href="#">KIDS</a></li>
+                                </ul> -->
+                            </li>
+                            <li><a href="#">AMRELI</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog <i class="fa-solid fa-chevron-right proarrow"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#">GOA BLOG</a></li>
+                            <li>
+                                <a href="#">DAMAN BLOG <i class="fa-solid fa-chevron-right fasarrow "></i></a>
+                                <ul class="subsubmenu">
+                                    <li><a href="#">SURAT</a></li>
+                                    <li><a href="#">DIV</a></li>
+                                    <li><a href="#">VARCHHA</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">AMRELI BLOG</a></li>
+                            <li><a href="#">RAJKOT BLOG</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -60,7 +105,7 @@
                         </select>
                         <a class="c-btn" href="#">submit</a>
                     </form>
-                    </div>
+                </div>
 
             </div>
         </section>
@@ -510,7 +555,7 @@
                                 <button class="c-btn ">Send Message</button>
                             </form>
                         </div>
-  
+
                     </div>
                     <div class="col-lg-7">
                         <div class="main-get">
@@ -536,7 +581,7 @@
                                         <div class="location-data">
                                             <a href="">
                                                 <i class="fa-solid fa-location-dot"></i>
-                                            <span> Jl. Darussalam Hagu  </spalgn> </a>
+                                                <span> Jl. Darussalam Hagu </spalgn> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -558,7 +603,7 @@
                                         <div class="location-data">
                                             <a href="">
                                                 <i class="fa-solid fa-location-dot"></i>
-                                            <span> Jl. Darussalam Hagu  </span> </a>
+                                                <span> Jl. Darussalam Hagu </span> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -580,7 +625,7 @@
                                         <div class="location-data">
                                             <a href="">
                                                 <i class="fa-solid fa-location-dot"></i>
-                                            <span> Jl. Darussalam Hagu  </span> </a>
+                                                <span> Jl. Darussalam Hagu </span> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -602,7 +647,7 @@
                                         <div class="location-data">
                                             <a href="">
                                                 <i class="fa-solid fa-location-dot"></i>
-                                                <span> Jl. Darussalam Hagu  </span>
+                                                <span> Jl. Darussalam Hagu </span>
                                             </a>
                                         </div>
                                     </div>
@@ -626,23 +671,23 @@
                 </p>
                 <form action="">
                     <input type="Email" name="email" placeholder="Type your email here">
-                    <a  href="#" class="c-btn">Subscribe</a>
+                    <a href="#" class="c-btn">Subscribe</a>
                 </form>
             </div>
         </section>
 
     </main>
 
-          
+
     <footer>
         <div class="container">
             <div class="row main-footer">
-                <div class=" col-sm-12  col-md-6  col-xl-3   travel-footer">
-                    <img  src="assets/image/t-Logo.png" alt="">
+                <div class=" col-12  col-md-6  col-xl-3   travel-footer">
+                    <img src="assets/image/t-Logo.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra.</p>
                 </div>
-                <div class=" col-sm-12  col-md-6  col-xl-3  travel-footer">
-                    <h3>Contact Information</h3> 
+                <div class=" col-12  col-md-6  col-xl-3  travel-footer">
+                    <h3>Contact Information</h3>
                     <ul>
                         <li>
                             <a href="#"><i class="fa-solid fa-location-dot"></i>732 Despard St, Atlanta</a>
@@ -657,7 +702,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class=" col-sm-12  col-md-6  col-xl-2 travel-footer">
+                <div class=" col-12  col-md-6  col-xl-2 travel-footer">
                     <h3>Quick Link</h3>
                     <ul>
                         <li>
@@ -674,7 +719,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class=" col-sm-12  col-md-6  col-xl-2  travel-footer icons">
+                <div class=" col-12  col-md-6  col-xl-2  travel-footer icons">
                     <h3>Follow Us</h3>
                     <div class="social-icon">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -688,8 +733,12 @@
         <div class="copyr">
             <p>Copyright © 2021 UNQ Design</p>
         </div>
-        </footer>
-
+    </footer>
+    <script>
+        function togglemenu() {
+            document.getElementById("menu").classList.toggle("showhide")
+        }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
