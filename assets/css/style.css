@@ -290,7 +290,7 @@ header nav>ul >li:hover .proarrow{
 }
 
 .hero-data {
-    padding-top: 14%;
+    padding-top: 8%;
     z-index: 9999;
     position: relative;
 }
@@ -345,7 +345,7 @@ header nav>ul >li:hover .proarrow{
 /********************about***********************/
 
 #about {
-    margin-top: 15.0rem;
+    margin-top:9rem;
 }
 
 .about-work {
@@ -409,7 +409,7 @@ header nav>ul >li:hover .proarrow{
 
 /***************Packages*********************************/
 #Packages {
-    margin-top: 15.0rem;
+    margin-top: 9rem;
 }
 
 .popular {
@@ -502,7 +502,7 @@ header nav>ul >li:hover .proarrow{
 
 /***********************Destination*************************/
 #Destination {
-    margin-top: 15.0rem;
+    margin-top: 9rem;
 }
 
 
@@ -599,7 +599,7 @@ header nav>ul >li:hover .proarrow{
 
 /********************blog****************************/
 #blog{
-    margin-top:15.0rem ;
+    margin-top:9rem ;
 }
 #blog img{
 width: 100%;
@@ -671,7 +671,7 @@ margin-bottom: 4rem ;
 
 /*******************Contact***************************/
 #Contact{
-    margin-top:15.0rem ;
+    margin-top:9rem ;
 }
 .m-contact{
     margin-top: 9rem;
@@ -936,7 +936,7 @@ footer {
 /*******************Satisfied*****************************/
 
 #Satisfied {
-    margin-top: 15.0rem;
+    margin-top: 9rem;
     max-width: 100%;
     height: 100vh;
     background-image: url(../image/d5.jpg);
