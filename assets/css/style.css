@@ -189,7 +189,7 @@ nav>ul>li{
     position: absolute;
     top: 60px;
     left: 0;
-    /* background-color:#069ABA; */
+    background-color:white;
     color: black;
     display: none;
     width: 200px;
